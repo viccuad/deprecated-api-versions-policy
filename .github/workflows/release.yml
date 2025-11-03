@@ -33,7 +33,7 @@ jobs:
       packages: write
       # Required by cosign keyless signing
       id-token: write
-    uses: kubewarden/github-actions/.github/workflows/reusable-release-policy-rust.yml@847a8b8af7715a709c56426d3d298a90d7a6dad3 # v4.5.13
+    uses: viccuad/github-actions/.github/workflows/reusable-release-policy-rust.yml@main
     with:
       oci-target: ghcr.io/${{ github.repository_owner }}/policies/deprecated-api-versions
 
